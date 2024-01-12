@@ -6,16 +6,13 @@
 package domain;
 
 import java.io.Serializable;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  *
- * @author marek
+ * @author Marko Milosevic
  */
 public abstract class AbstractDomainObject implements Serializable {
 

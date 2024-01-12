@@ -7,7 +7,7 @@ package transfer.util;
 
 /**
  *
- * @author marek
+ * @author Marko Milosevic
  */
 public interface Operation {
     

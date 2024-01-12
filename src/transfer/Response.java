@@ -10,7 +10,7 @@ import transfer.util.ResponseStatus;
 
 /**
  *
- * @author marek
+ * @author Marko Milosevic
  */
 public class Response implements Serializable {
 

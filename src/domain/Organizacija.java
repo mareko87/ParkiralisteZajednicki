@@ -5,7 +5,6 @@
  */
 package domain;
 
-import java.io.Serializable;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -13,7 +12,7 @@ import java.util.Objects;
 
 /**
  *
- * @author marek
+ * @author Marko Milosevic
  */
 public class Organizacija extends AbstractDomainObject {
     

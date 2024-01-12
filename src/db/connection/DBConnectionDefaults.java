@@ -7,7 +7,7 @@ package db.connection;
 
 /**
  *
- * @author marek
+ * @author Marko Milosevic
  */
 public interface DBConnectionDefaults {
     

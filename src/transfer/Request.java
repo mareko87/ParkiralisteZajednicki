@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  *
- * @author marek
+ * @author Marko Milosevic
  */
 public class Request implements Serializable {
 
