@@ -111,7 +111,7 @@ public class Racun extends AbstractDomainObject {
         if (obj == null) {
             return false;
         }
-        Racun other = (Racun)obj;
+        final Racun other = (Racun)obj;
         if ((this.getDatum().getDay() != other.getDatum().getDay()) ||
                 (this.getDatum().getMonth() != other.getDatum().getMonth()) ||
                 (this.getDatum().getYear() != other.getDatum().getYear())) {

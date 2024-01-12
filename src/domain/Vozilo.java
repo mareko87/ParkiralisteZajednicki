@@ -58,7 +58,7 @@ public class Vozilo extends AbstractDomainObject {
             return false;
         }
         
-        Vozilo other = (Vozilo) obj;
+        final Vozilo other = (Vozilo) obj;
         
         if (!this.getRegistarskiBroj().equals(other.getRegistarskiBroj())) {
             return false;
